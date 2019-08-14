@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WinCode</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../assets/css/style.css">
+</head>
+<body id="gray">
+    <div class="container-fluid">
+
+        <div class="row" id="header">
+            
+                <div class="col-lg-2 "><a href="index.html"><img id="logo" src="./../assets/image/logo/logo.png"></a></div>
+                <div class="col-lg-10" id="first">
+                    <nav >
+                        <ul id="accaunt_dtl">
+                            <li >Username</li>
+                            <li><a id="profil"><img></a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            
+        </div>
+
+        <div id="profile_info" data-vis="visible" class="none">
+            <a href="#">< Account info</a>
+            <a href="#" id="adding"> < Add Car</a>
+            <a href="#">< Log out</a>
+        </div>
+
+        <div id="car_publish" data-vis="visible" class="none">
+            <div><strong>Wincode:</strong><input></div>
+            <div><strong>Make:</strong><br><input></div>
+            <div><strong>Model:</strong><br><input></div>
+            <div><strong>Year:</strong><br><input></div>
+            <div><strong>Type:</strong><br><input></div>
+            <div><strong>Manufacturer:</strong><input></div>
+            <div><strong>Manufactured in:</strong><input></div>
+            <div><strong>Plant:</strong><br><input></div>
+            <div><strong>Sequential number:</strong><input></div>
+            <button type="button" class="btn btn-warning">Add</button>
+        </div>
+
+        <div class="row lambo" id="body">
+            
+           <!-------- <div class="col-sm-12 d-sm-flex"></div>-->
+            <div class="col-sm-12" id="opacity">
+                
+            </div>
+
+        </div>
+
+
+        <div class="search">
+            <h1>Wincode Production</h1>
+            <input type="text" id="search_bar" placeholder="Type any WinCode">
+            <button type="button" id="search_button">
+                    <i id="search_btn" class="fas fa-search"></i>
+            </button>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/4030079276.js"></script>
+    <script src="./../assets/javascript/decloration.js"></script>
+    <script src="./../assets/tools/jQuery.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <script src="./../assets/javascript/firebase.js"></script>
+    <script src="./../assets/javascript/animation.js"></script>
+    <script src="./../assets/javascript/database.js"></script>
+    <script src="./../assets/javascript/search.js"></script>
+    <script src="./../assets/javascript/profile.js"></script>
+    <script src="./../assets/javascript/afte_log.js"></script>
+</body>
+</html>

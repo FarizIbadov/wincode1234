@@ -1,0 +1,349 @@
+.container-fluid{
+    padding: 0;
+    
+}
+
+#header{
+    background:#F1B603;
+    margin:0;
+    width: 100%;
+    /***************/
+    position: fixed;
+    z-index: 10;
+    /***************/
+}
+
+
+
+#header  #logo{
+    width:100%;
+    height: 150px;
+
+}
+
+#header #first{
+    padding:0;
+    margin: 0;
+    width:100px;
+    
+}
+
+#accaunt_dtl{
+    position: absolute;
+    width:20%;
+    left:80%;
+    top:50px;
+}
+
+#accaunt_link{
+    position: absolute;
+    width:200px;
+    top:50px;
+    right:10%;
+}
+
+#header #first li{
+    list-style: none;
+    display:inline-block;
+
+      
+}
+
+#header #first li:last-child{
+    margin-left:5%;
+      
+}
+
+#header #first li a {
+    text-decoration: none; 
+    color: black;
+}
+
+#header #first li a:hover{
+    opacity: 0.5;
+}
+
+#body{
+    
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:150px;
+    opacity: 0;
+    
+}
+
+#body #opacity{
+    
+    width:100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    height:1000px; 
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.mercedes,.bmw,.ferrari,.lambo{
+    height: 1000px;
+    position: absolute;
+}
+.mercedes{
+    background: url(./../image/cars/mercedes_GTR.jpg);
+    
+}
+
+.bmw{
+    background: url(./../image/cars/bmw.jpg);
+    
+}
+
+.ferrari{
+    background: url(./../image/cars/ferrari_f12.jpg);
+    
+}
+
+.lambo{
+    background: url(./../image/cars/Lamborghini.jpeg);
+    
+}
+
+.search{
+    position: absolute;
+    left:33%;
+    top:260px;
+    opacity: 0 ;
+    z-index: 4;
+}
+
+.search h1{
+    color:white; 
+    font-size: 5em;
+    position: relative;
+    bottom:15px;
+    right:15%;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    
+
+}
+
+.search #search_bar{
+    width:500px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    opacity: 0.7;
+    position: relative;
+    margin: 0;
+    padding-left:20px; 
+    letter-spacing: 11px;
+    
+}
+
+.search #search_bar:hover{
+    opacity: 1;
+}
+
+.search #search_bar:focus{
+    outline: none;
+    opacity: 1;
+    border:2px solid #F1B603;
+    box-shadow: 1px 1px  rgba(241, 181, 3, 0.52);
+    
+}
+
+.search #search_button {
+    border:1px solid #F1B603;
+    padding: 1;
+    border-radius: 200px;
+    width:60px;
+    height: 60px;
+    color:#F1B603;
+    font-size: 1.5em;
+    outline: none;
+    background: none;
+    margin-bottom:12px;
+    
+}
+
+.search #search_button:hover{
+
+background: #F1B603;   
+color:black;
+
+
+}
+
+.search #search_button:active{
+
+    background: rgb(200, 153, 10);   
+    border: 1px solid rgb(200, 153, 10); 
+    }
+
+#gray{
+    background:#212121;
+}
+
+
+#singin,#singup{
+    position: absolute;
+    top:200px;
+    
+    
+}
+
+#singup{
+    left:36%;
+}
+
+#singin{
+   left:33%; 
+}
+
+
+
+
+.white{
+    color:#fff;
+    
+}
+
+
+
+.singin{
+    right:4%;
+}
+
+#from_up_to_in,#from_in_to_up{
+    text-decoration: none;
+    color:#F1B603;
+    position: relative;
+    left:3%;
+    top:5px;
+}
+
+#from_up_to_in:hover,#from_in_to_up:hover{
+    opacity: 0.5;
+}
+
+#from_up_to_in{
+    
+    top:1px;
+}
+
+#table{
+    position: relative;
+    z-index: 2;
+    top:200px;
+    color:#F1B603;
+    background: #212121;
+    width:50%;
+    font-size: 1.3em;
+    border:2px solid #F1B603;
+    left:25%;
+    border-bottom:2px solid #F1B603;
+    border-radius: 20px;
+    
+}
+
+.table_part{
+    position: absolute;
+    left:300px;
+}
+
+#accaunt_dtl{
+    top:40px;
+}
+
+#profil{
+    background: #212121;
+}
+
+#profil > img{
+    width:70px;
+    height:70px;
+    border-radius: 5px;
+    border:1px solid transparent;
+    outline: none;
+    box-sizing: border-box;
+    background: #212121;
+    cursor: pointer;
+}
+
+#profil:hover{
+    opacity:1 !important;
+}
+
+#car_publish,#profile_info{
+    position: fixed;
+    z-index: 10;
+    width:250px;
+    height:400px;
+    top:160px;
+    left:83%;
+    background:#212121;
+    border:2px solid #F1B603;
+    border-radius:20px;
+}
+
+#car_publish > div,#profile_info > a{
+    text-decoration: none;
+    display: block;
+    color:#fff;
+    padding:10px;
+}
+
+#profile_info > a:hover{
+    color:#000;
+    background:#F1B603;
+    transition: all 0.5s;
+}
+
+#profile_info > a:first-child{
+    border-radius: 15px 15px 0 0;
+}
+
+.none{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
+
+#car_publish{
+    left:67.5%;
+    top:206px;
+    
+    height:560px;
+}
+
+#car_publish > div{
+    padding:1px 0 2px 10px;
+}
+
+#car_publish div input{
+    width: 95%;
+    outline:none;
+    border:1px solid #FFF;
+    border-radius: 5px;
+}
+
+#car_publish div input:focus{
+    border:1px solid #F1B603;
+    box-sizing: border-box;
+}
+
+#car_publish button{
+    float:right;
+    margin-right:5%;
+    margin-top:10px; 
+    
+}
+
+
+
